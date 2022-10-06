@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SubDomainCount20221005 {
+public class LC20221005subdomainVisits {
     /**
     public static List<String> subdomainVisits(String[] cpdomains) {
         //自己的写法
