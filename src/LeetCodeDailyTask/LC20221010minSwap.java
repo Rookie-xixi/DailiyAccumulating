@@ -1,6 +1,6 @@
 package LeetCodeDailyTask;
 
-public class LCDT221010minSwap {
+public class LC20221010minSwap {
     //不会，看的题解
     //    https://leetcode.cn/problems/minimum-swaps-to-make-sequences-increasing/solution/shi-xu-lie-di-zeng-de-zui-xiao-jiao-huan-ux2y/
     // 二维数组dp
