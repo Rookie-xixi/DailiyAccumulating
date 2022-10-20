@@ -1,4 +1,4 @@
-package LeetCodeDailyTask;
+package LeetCodeDailyTask.LC202210;
 
 public class LC20221007maxAscendingSum {
     public static int maxAscendingSum(int[] nums) {

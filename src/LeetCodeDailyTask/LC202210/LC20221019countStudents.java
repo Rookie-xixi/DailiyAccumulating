@@ -1,8 +1,8 @@
-package LeetCodeDailyTask;
+package LeetCodeDailyTask.LC202210;
 
 import java.util.Arrays;
 
-public class LCDT20221019countStudents {
+public class LC20221019countStudents {
     // 看题解
     // 学会用stream方法技术
     // https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/solution/wu-fa-chi-wu-can-de-xue-sheng-shu-liang-fv3f5/

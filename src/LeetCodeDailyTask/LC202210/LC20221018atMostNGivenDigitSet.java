@@ -1,6 +1,5 @@
-package LeetCodeDailyTask;
+package LeetCodeDailyTask.LC202210;
 
-import javax.print.DocFlavor;
 import java.util.Arrays;
 
 public class LC20221018atMostNGivenDigitSet {

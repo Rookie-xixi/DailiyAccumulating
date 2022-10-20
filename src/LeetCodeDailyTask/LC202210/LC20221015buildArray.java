@@ -1,4 +1,4 @@
-package LeetCodeDailyTask;
+package LeetCodeDailyTask.LC202210;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

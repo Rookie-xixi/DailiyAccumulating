@@ -1,4 +1,4 @@
-package LeetCodeDailyTask;
+package LeetCodeDailyTask.LC202210;
 
 public class LC20221010minSwap {
     //不会，看的题解
