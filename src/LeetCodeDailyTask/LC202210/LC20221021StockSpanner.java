@@ -4,7 +4,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LC20221021StockSpanner {
+    // 单调栈
+    // 三叶解法
+    // https://leetcode.cn/problems/online-stock-span/solution/by-ac_oier-m8g7/
+    Deque<int[]> d = new ArrayDeque<>();
+    int cur = 0;
+    public int next(int price) {
+        while (!d.isEmpty() && d.peekLast()[1] <= price) {
+            d.pollLast();
+        }
+        int prev = d.isEmpty() ? -1 : d.peekLast()[0], ans = cur - prev;
+        d.addLast(new int[]{cur++, price});
+        return ans;
+    }
 
+    // 暴力解法，自己写出的
     class StockSpanner {
         List<Integer> list;
         public StockSpanner() {
