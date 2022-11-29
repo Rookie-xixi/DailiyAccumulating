@@ -48,10 +48,12 @@ class SynSample extends Thread {
         synchronized (object) {
             try {
                 if (needWait) {
-                    object.wait();
+                    object.wait(1000);
                     System.out.println(this.getName() + ":被唤醒了 ！");
+                    Thread.sleep(1000);
                 } else {
-                    object.notifyAll();
+                    object.notify();
+                    System.out.println("去唤醒其他线程了！");
                 }
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
@@ -93,7 +95,7 @@ public class SynchronizedExercise {
 
         SynSample ss = new SynSample(object, false);
         ss.setName("thread-" + 5);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         ss.start();
     }
 }
